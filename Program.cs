@@ -47,7 +47,7 @@ namespace CityPopulationFinder
             try
             {
                 Console.WriteLine("Начало работы программы...");
-                var cities = ReadCitiesFromExcel(@"C:\Users\User\Desktop\Кусты.xlsx");
+                var cities = ReadCitiesFromExcel(@"C:\Users\User\Desktop\Города.xlsx");
                 Console.WriteLine($"Прочитано {cities.Count} населенных пунктов");
 
                 var populationFinder = new PopulationFinder();
